@@ -1,9 +1,14 @@
-:host{
-display: flex;
-flex-direction: column;
+:host {
+    display       : flex;
+    flex-direction: column;
 }
 
 
-.calendar{
+.calendar {
     width: 300px;
+}
+
+::ng-deep .datepicker-outer-container.theme-dark {
+    background-color: rgb(109, 33, 33) !important;
+
 }
