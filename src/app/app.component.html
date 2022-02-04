@@ -1,3 +1,9 @@
 
 <router-outlet></router-outlet>
 {{todayJalali}}
+
+<div class="calendar">
+  <input type="text" #datepickerInput />
+  <ng-persian-datepicker
+  [input]="datepickerInput"></ng-persian-datepicker>
+</div>
